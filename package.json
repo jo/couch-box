@@ -1,0 +1,32 @@
+{
+  "name": "couch-box",
+  "version": "1.0.0",
+  "description": "Asymmetric encrypted CouchDB documents, powered by NaCl.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jo/couch-box.git"
+  },
+  "keywords": [
+    "couchdb",
+    "crypto",
+    "nacl",
+    "curve25519"
+  ],
+  "author": "Johannes J. Schmidt <schmidt@netzmerk.com> (http://die-tf.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jo/couch-box/issues"
+  },
+  "homepage": "https://github.com/jo/couch-box#readme",
+  "dependencies": {
+    "tweetnacl": "git://github.com/jo/tweetnacl-js.git#75-reduce-browserify-build"
+  },
+  "devDependencies": {
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
+  }
+}
