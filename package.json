@@ -22,11 +22,11 @@
     "url": "https://github.com/jo/couch-box/issues"
   },
   "homepage": "https://github.com/jo/couch-box#readme",
-  "dependencies": {
-    "tweetnacl": "git://github.com/jo/tweetnacl-js.git#75-reduce-browserify-build"
-  },
   "devDependencies": {
     "tap-spec": "^3.0.0",
     "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "tweetnacl": "^0.13.1"
   }
 }
