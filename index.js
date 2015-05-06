@@ -36,8 +36,8 @@ module.exports = function box(databaseKey, receivers) {
           ))
         }
 
-      return memo
-    }, {})
+        return memo
+      }, {})
 
     doc.box = {
       ephemeral: nacl.util.encodeBase64(ephemeralKey.publicKey),
